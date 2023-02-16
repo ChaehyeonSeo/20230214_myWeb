@@ -36,6 +36,8 @@ public class MyInfoController extends HttpServlet {
 		}
 		if (id != null) {
 			request.setAttribute("myinfo", new MemberService().myInfo(id));			
+		} else {
+			
 		}
 		
 		request.getRequestDispatcher("/WEB-INF/view/member/myinfo.jsp").forward(request, response);

@@ -16,11 +16,11 @@
 		<%
 		if(session.getAttribute("lgnss") == null){
 		%>
-		<button type="button" class="btn login">로그인</button>
+			<button type="button" class="btn login">로그인</button>
 		<%
 		} else {
 		%>
-		<button type="button" class="btn logout">로그아웃</button>
+			<button type="button" class="btn logout">로그아웃</button>
 		<%
 		}
 		%>
